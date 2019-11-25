@@ -1,8 +1,40 @@
+* {
+    text-align: center;
+}
+
 body {
+    width: 1000px;
+    margin: auto;
     background-color: white;
     color: black;
 }
 
-.navBar {
-    display: inline;
+header {
+    display: inline-block;
+    background-color: darkgrey;
+    color: lightgrey;
+    width: 100%;
+    border: darkgrey;
+    border-width: 5px;
+    padding: 10px 0px 10px 10px;
+    margin: auto;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header>img {
+    padding-left: 60px;
+    float: left;
+}
+
+.navButtons {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 40px 25px 10px 25px;
+}
+
+#heroimage {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: center;
 }
