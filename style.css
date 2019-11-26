@@ -29,7 +29,6 @@ header>img {
 
 .navButtons {
     display: inline-block;
-    vertical-align: middle;
     padding: 40px 25px 10px 25px;
 }
 
@@ -37,4 +36,37 @@ header>img {
     margin-top: 30px;
     margin-bottom: 30px;
     align-content: center;
+}
+
+#section2 {
+    margin-bottom: 30px;
+}
+
+#subBanner1 {
+    margin-right: 30px;
+}
+
+#subBanner2 {
+    margin-right: 30px;
+}
+
+#featuredSectionBanner {
+    width: 50%;
+    float: left;
+    line-height: 400px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+#featuredSectionTitle {
+    font-size: large;
+    font-weight: bold;
+    float: left;
+}
+#scrollArticle {
+    text-align: justify;
+    overflow: scroll;
+    width: 45%;
+    height: 350px;
+
 }
